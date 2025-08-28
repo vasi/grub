@@ -1925,9 +1925,11 @@ module = {
   i386_pc = loader/i386/pc/chainloader.c;
   i386_coreboot = loader/i386/coreboot/chainloader.c;
   i386_coreboot = lib/LzmaDec.c;
+  powerpc_ieee1275 = loader/powerpc/ieee1275/chainloader.c;
   enable = i386_pc;
   enable = i386_coreboot;
   enable = efi;
+  enable = powerpc_ieee1275;
 };
 
 module = {
